@@ -1,0 +1,15 @@
+.form__wrapp {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+}
+
+.form__wrapp label {
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.form__wrapp input {
+  height: 25px;
+  margin-bottom: 10px;
+}
