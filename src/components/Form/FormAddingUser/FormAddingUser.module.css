@@ -1,7 +1,7 @@
 .form__wrapp {
   display: flex;
-  width: 80%;
   flex-direction: column;
+  width: 80%;
 }
 
 .form__wrapp label {
