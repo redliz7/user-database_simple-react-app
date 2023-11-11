@@ -8,7 +8,7 @@ const UserList = (props) => {
       {props.users.length > 0 && (
         <ul className={styles['users_wrapp']}>
           {props.users.map((user) => (
-            <li key={user.id}>
+            <li className={styles['users_item']} key={user.id}>
               {user.name} - {user.age} лет
             </li>
           ))}
