@@ -22,14 +22,14 @@ const FormAddingUser = (props) => {
     if (inputName.trim().length === 0 || inputAge.trim().length === 0) {
       setError({
         title: 'Некорректный ввод',
-        message: 'Эти поля не могут быть пустыми',
+        message: 'Эти поля не могут быть пустыми!',
       });
       return;
     }
     if (+inputAge < 1) {
       setError({
         title: 'Некорректный возраст',
-        message: 'Возраст должен быть больше нуля',
+        message: 'Возраст должен быть больше нуля!',
       });
       return;
     }
